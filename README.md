@@ -1,7 +1,5 @@
 ## React Re-Ducks (REACT-REDUX)
 
-React Re-Ducks simple example :D
-
       _          _          _          _          _
     >(')____,  >(')____,  >(')____,  >(')____,  >(') ___,
       (` =~~/    (` =~~/    (` =~~/    (` =~~/    (` =~~/
