@@ -2,7 +2,7 @@ import React, {Fragment} from 'react'
 
 import {useDispatch, useSelector} from 'react-redux'
 
-import {getPokemonsAction} from '../../redux/pokemon/pokemon'
+import {getPokemonsAction, getNextPokemonsAction} from '../../redux/pokemon/pokemon'
 
 const Pokemons = () => {
     const dispatch = useDispatch()
@@ -15,6 +15,7 @@ const Pokemons = () => {
         <Fragment>
             <h1>Lista de pokemons</h1>
             <button onClick={() => dispatch(getPokemonsAction())} >Get pokemons</button>
+            <button onClick={() => dispatch(getNextPokemonsAction())}>Next Pokemons</button>
             <hr />
             <ol>
                 {pokemonsList}
